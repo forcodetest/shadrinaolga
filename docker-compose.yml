@@ -2,7 +2,7 @@ services:
 
   ai-service:
     build: ./
-    image: ai-service-1
+    image: forcodetest/ai-service-1
     ports:
       - 8000:8000
     command: python main.py
