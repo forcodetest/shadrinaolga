@@ -1,7 +1,7 @@
 services:
 
   ai-service:
-    #build: ./
+    build: ./
     image: ai-service-1
     ports:
       - 8000:8000
